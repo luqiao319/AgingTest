@@ -79,14 +79,6 @@ namespace AgingTest
             win.ShowDialog();
             AddLog("[用户管理] 用户管理窗口已关闭");
         }
-        private void BtnHardwareControl_Click(object sender, RoutedEventArgs e)
-        {
-            var win = new Views.HardwareControlWindow { Owner = this };
-            win.ShowDialog();
-            AddLog("[硬件控制] 硬件控制窗口已关闭");
-        }
-
-
 
         /// <summary>退出登录：重新弹出登录窗口，成功后切换到新用户</summary>
         private void BtnLogout_Click(object sender, RoutedEventArgs e)
