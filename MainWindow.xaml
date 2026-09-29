@@ -57,6 +57,22 @@
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,16,0">
                     <Ellipse x:Name="CommDot" Width="10" Height="10" Fill="#F0A020" VerticalAlignment="Center" Margin="0,0,6,0"/>
                     <TextBlock x:Name="TxtComm" Text="通讯未连接" Foreground="#FFD9A8" FontSize="13" VerticalAlignment="Center" Margin="0,0,18,0"/>
+
+                    <Button x:Name="BtnHardwareControl"
+                Content="硬件控制"
+                Height="26"
+                Padding="10,0"
+                FontSize="12"
+                FontWeight="Bold"
+                Foreground="White"
+                Background="#2F6FED"
+                BorderThickness="0"
+                Cursor="Hand"
+                Margin="0,0,10,0"
+                VerticalAlignment="Center"
+                Click="BtnHardwareControl_Click"/>
+
+
                     <TextBlock x:Name="TxtUser" Text="当前用户：--" Foreground="White" FontSize="13" VerticalAlignment="Center" Margin="0,0,18,0"/>
                     <Button x:Name="BtnUserManage" Content="用户管理" Height="26" Padding="10,0" FontSize="12" FontWeight="Bold"
                             Foreground="White" Background="#2F6FED" BorderThickness="0" Cursor="Hand"
